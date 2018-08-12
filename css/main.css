@@ -1,0 +1,188 @@
+body {
+  font-family: 'Slabo 27px', serif;
+  background-color: #efefef;
+}
+
+#winner {
+  top: -100px;
+  transition: all 1s ease-in-out;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(70, 150, 60, 1);
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Correct and incorrect guess styles */
+
+#correct-screen,
+#incorrect-screen {
+  display: none;
+  font-size: 5em;
+  width: 100%;
+  opacity: 0.95;
+  font-weight: bold;
+  letter-spacing: 1px;
+  height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+}
+
+#correct-screen {
+  background-color: rgba(70, 150, 60, 1);
+}
+
+#incorrect-screen {
+  background-color: rgba(150, 70, 60, 1);
+}
+
+.centered {
+  height: 100vh;
+  line-height: 100vh;
+}
+
+/* ----------------------------- */
+
+/* Progress Bar Styles */
+
+#progress-bar {
+  width: 90%;
+  height: 10px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+#progress-chunk {
+  width: 0;
+  height: 10px;
+  border: none;
+  background-color: rgba(70, 150, 60, 1);
+  transition: all 0.3s;
+}
+
+/* ----------------------------- */
+
+/* Main body styles */
+
+.page-header {
+  text-align: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-header h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+}
+
+.page-header h2 {
+  font-size: 14px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.device-wrapper {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+#device h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+  color: #314c74;
+}
+
+#definition-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#definition-wrapper p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#definition1,
+#definition2,
+#definition3 {
+  border-radius: 5px;
+  background-color: #eaeaea;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+#next,
+#restart {
+  text-align: center;
+}
+
+#next button {
+  color: #314c74;
+  width: 100px;
+  height: 35px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+#next a,
+#restart a {
+  color: #314c74;
+}
+
+hr {
+  height: 1px;
+  background: #ccc;
+  margin: 40px 10px;
+}
+
+/* ----------------------------- */
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 30px 10px 80px 10px;
+}
+
+footer a {
+  font-weight: 100;
+  letter-spacing: 0.75px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer a:link {
+  color: #aaa;
+}
+
+footer a:visited {
+  color: #999;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+footer a:active {
+  color: #ccc;
+}
+
+/* ----------------------------- */
