@@ -20,7 +20,6 @@ body {
 }
 
 /* Correct and incorrect guess styles */
-
 #correct-screen,
 #incorrect-screen {
   display: none;
